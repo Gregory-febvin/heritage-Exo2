@@ -7,7 +7,7 @@
 #include <QObject>
 
 class QLineEdit_Histo :
-	public QTLineEdit
+	public QLineEdit
 {
 	Q_OBJECT
 

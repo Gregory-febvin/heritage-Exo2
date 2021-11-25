@@ -77,7 +77,7 @@ void QLineEdit_Histo::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
 }
 
 QT_INIT_METAOBJECT const QMetaObject QLineEdit_Histo::staticMetaObject = { {
-    QMetaObject::SuperData::link<QTLineEdit::staticMetaObject>(),
+    QMetaObject::SuperData::link<QLineEdit::staticMetaObject>(),
     qt_meta_stringdata_QLineEdit_Histo.data,
     qt_meta_data_QLineEdit_Histo,
     qt_static_metacall,
@@ -96,12 +96,12 @@ void *QLineEdit_Histo::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_QLineEdit_Histo.stringdata0))
         return static_cast<void*>(this);
-    return QTLineEdit::qt_metacast(_clname);
+    return QLineEdit::qt_metacast(_clname);
 }
 
 int QLineEdit_Histo::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QTLineEdit::qt_metacall(_c, _id, _a);
+    _id = QLineEdit::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
