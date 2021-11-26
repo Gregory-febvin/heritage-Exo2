@@ -1,2 +1,6 @@
-﻿  QLineEdit_Histo.cpp
-  QTLineEdit.vcxproj -> C:\Users\Febvin\source\repos\QTLineEdit\x64\Debug\QTLineEdit.exe
+﻿  moc QLineEdit_Histo.h
+  QLineEdit_Histo.cpp
+  QTLineEdit.cpp
+  moc_QLineEdit_Histo.cpp
+moc_QTLineEdit.obj : error LNK2019: symbole externe non résolu "public: void __cdecl QTLineEdit::ajoute(void)" (?ajoute@QTLineEdit@@QEAAXXZ) référencé dans la fonction "private: static void __cdecl QTLineEdit::qt_static_metacall(class QObject *,enum QMetaObject::Call,int,void * *)" (?qt_static_metacall@QTLineEdit@@CAXPEAVQObject@@W4Call@QMetaObject@@HPEAPEAX@Z)
+C:\Users\Febvin\source\repos\QTLineEdit\x64\Debug\QTLineEdit.exe : fatal error LNK1120: 1 externes non résolus

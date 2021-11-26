@@ -18,6 +18,8 @@ public:
 private:
     Ui::QTLineEditClass ui;
 
+	QLineEdit * TableauTaille;
+
 public slots:
 	void ajoute();
 	void historique();

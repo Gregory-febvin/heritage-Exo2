@@ -11,11 +11,11 @@ class QLineEdit_Histo :
 {
 	Q_OBJECT
 
-		QVector<QString> tab;
-	int tailleTabbleau;
+		//std::vector< QString > tab;
+		int tailleTabbleau;
 
 public:
-	QLineEdit_Histo(int TailleMax = 10);
+	QLineEdit_Histo(int TailleMax = 10, QWidget *parent = Q_NULLPTR);
 
 public slots:
 	void insertHisto();

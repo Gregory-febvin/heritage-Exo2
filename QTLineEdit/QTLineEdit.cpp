@@ -7,25 +7,24 @@ QTLineEdit::QTLineEdit(QWidget *parent)
 {
     ui.setupUi(this);
 
-	QLineEdit_Histo * lineEditHisto = new QLineEdit_Histo();
+	//QLineEdit_Histo * lineEditHisto = new QLineEdit_Histo();
 
-	QLineEdit *lineedit = new QLineEdit;
-	lineedit->resize(100, 20);
-	lineedit->move(15, 50);
-	lineedit->show();
-	lineedit->setParent(this);
+	QLineEdit *TableauTaille = new QLineEdit(this);
+	TableauTaille->resize(100, 20);
+	TableauTaille->move(15, 50);
 
-	connect(lineedit, SIGNAL(returnPressed()), this, SLOT(historique()));
-}
-
-void QTLineEdit::ajoute()
-{
-	
+	//connect(TableauTaille, SIGNAL(returnPressed()), this, SLOT(historique()));
 }
 
 void QTLineEdit::historique()
 {
-	qDebug() << "coucou";
+	int TailleHisto = this->TableauTaille->text().toInt();
+
+	QLineEdit *Texte = new QLineEdit(this);
+	Texte->resize(100, 20);
+	Texte->move(25, 50);
+	TableauTaille->setVisible(false);
+
 }
 
 void QTLineEdit::efface()
